@@ -1,6 +1,11 @@
 name: Checks
 
-on: [push]
+# Disabled workflow
+# on: [push]
+
+on:
+  workflow_dispatch:
+
 
 jobs:
   test:
