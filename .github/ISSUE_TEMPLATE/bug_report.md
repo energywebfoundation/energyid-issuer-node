@@ -15,7 +15,7 @@ Checklist:
 
 ---
 
-### **Describe the bug**
+## **Describe the bug**
 
 <!-- A clear and concise description of what the bug is. -->
 
@@ -24,6 +24,12 @@ Checklist:
 ### **Steps to Reproduce**
 
 <!-- Steps to reproduce the error: -->
+
+### System information
+
+Issuer node version: `vX.X.X`
+OS & Version: `Windows/Linux/OSX`
+Browser & Version: `Chrome/Firefox/Safari/Edge`
 
 ---
 
@@ -53,7 +59,7 @@ and remove all the bulleted list elements that are not relevant for this issue. 
 
 ### **App version**
 
-```
+```sh
 Paste version here.
 ```
 
@@ -61,7 +67,7 @@ Paste version here.
 
 ### **Logs**
 
-```
+```sh
 Paste any relevant application logs here.
 ```
 

@@ -1,12 +1,25 @@
-site_name: EW-Origin
+site_name: EnergyID Issuer Node
 
 nav:
-    - Introduction: index.md
-    - Installation: installation.md
+    - Introduction:
+        - Overview: index.md
+        - README: README.md
+    - Getting Started:
+        - Installation: installation.md
+        - Quick Start: README.md#quick-start-installation
     - Architecture: architecture.md
-    - Packages: packages.md
-    - User guides:
-    - API:
+    - User Guides:
+        - Configuration: README.md#quick-start-installation
+        - KMS Setup: README.md#kms-providers-configuration
+        - Troubleshooting: README.md#troubleshooting
+    - API Documentation:
+        - API Reference: api/spec.html
+        - OpenAPI Spec: api/api.yaml
+    - Development:
+        - Contributing: contributing.md
+        - Code of Conduct: CODE_OF_CONDUCT.md
+    - Examples:
+        - Schema Examples: docs/examples/schemas/
 
 theme: material
 
