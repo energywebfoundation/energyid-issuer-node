@@ -68,7 +68,7 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
-          push: false
+          push: true
           tags: |
             issuernode-api:${{ steps.version.outputs.VERSION }}
             issuernode-api:${{ steps.tag.outputs.TAG }}
